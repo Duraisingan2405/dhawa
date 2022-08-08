@@ -1,0 +1,178 @@
+ #match{
+    margin:0;
+    padding:0;
+    top:0;
+    right:0;
+    left:0;
+    width:100;
+    position: fixed;
+    overflow:auto;
+    
+    
+    
+  
+    background-color:#2d2d2d ;
+    
+    
+}
+.mian li{
+    float:left;
+    padding:16px 17px;
+    width:auto;
+    width:14.4%;
+    
+    
+}
+.mian li a{
+    display:inline-block;
+    text-decoration: none;
+    font-size: large;
+    text-transform: capitalize;
+    color:white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+   
+}
+.mian li:hover{
+    background-color:gray;
+}
+.active{
+    background-color:gray;
+}
+
+
+.row{
+     display:flex;
+     flex-wrap: wrap;
+
+
+
+}
+ul{
+    list-style: none;
+}
+
+
+.footer{
+    position:relative;
+    left:0;
+    right:0;
+
+    bottom:0;
+    width:100%;
+    background-color:#2d2d2d;
+    padding: 0px;
+    height:250px;
+}
+.column{
+   
+    width:20%;
+    
+    
+    
+}
+.footer h4{
+    color:blue;
+    text-transform: capitalize;
+    margin-bottom:10px;
+    margin-left: 40px;
+}
+.column ul li:not(:last-child){
+    margin-bottom: 10px;
+    
+}
+.column ul li a{
+    font-size: 16px;
+    text-transform:capitalize ;
+    text-align: center;
+    text-decoration: none;
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    
+}
+.column ul li a:hover {
+   
+    padding-left: 10px;
+}
+
+
+.row{
+    margin-top: 0;
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+.heart{
+    text-align: center;
+    
+    text-transform:capitalize ;
+    
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    padding:10px;
+    
+}
+.mar{
+
+    padding-top:20px;
+    width:auto;
+    height: 500px;
+    margin:0;
+}
+.mar img{
+    margin: 5px;
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+ .mar p{
+  font-family: 'Times New Roman', Times, serif;
+  
+   font-style: normal;
+   font-weight: 100;
+    font-size:18px;
+}
+.mar p::first-letter{
+    padding-left: 10%;
+}
+.may{
+
+    padding-top:0px;
+    width:auto;
+    height: 500px;
+    margin:0;
+}
+.may img{
+    float:right;
+    margin-right: 20px;
+}
+ .may p{
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 5px;
+   font-style: normal;
+   font-weight: 100;
+    font-size:18px;
+}
+.may p::first-letter{
+    padding-left: 10%;
+}
+.may h2{
+    margin:5px;
+}
+.di{
+    margin-top:0px ;
+}
+.di img{
+    padding-left: 50px;
+    margin-bottom: 50px;
+    
+}
+.di img{
+    opacity: 0.5;
+}
+.di img:hover{
+    opacity:1.0;
+}
